@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_slicingui/screen_page/page_category.dart';
-import 'package:project_slicingui/screen_page/page_course.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_category.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_course.dart';
 
 class PageHome extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project_slicingui/screen_page/page_camera.dart';
-import 'package:project_slicingui/screen_page/page_maps.dart';
-import 'package:project_slicingui/screen_page/page_mycourse.dart';
-import 'package:project_slicingui/screen_page/page_home.dart';
-import 'package:project_slicingui/screen_page/page_profil_user.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_camera.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_maps.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_mycourse.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_home.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_profil_user.dart';
 
 class PageBottomNavigationBar extends StatefulWidget {
   const PageBottomNavigationBar({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_slicingui/screen_page/page_course_detail.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_course_detail.dart';
 
 class PageCourse extends StatefulWidget {
   const PageCourse({Key? key});

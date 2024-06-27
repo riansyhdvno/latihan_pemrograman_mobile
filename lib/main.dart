@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:project_slicingui/screen_page/page_bottom_navigation.dart';
+import 'package:latihan_mobile/lat_notes/screen_notes.dart';
+import 'package:latihan_mobile/lat_video/screen_video.dart';
+import 'package:latihan_mobile/list_audio/screen_audio.dart';
+import 'package:latihan_mobile/list_bola/screen_sepakbola.dart';
+import 'package:latihan_mobile/list_user/list_user.dart';
+import 'package:latihan_mobile/media_player/menut_utama.dart';
+import 'package:latihan_mobile/pegawai/screen_pegawai.dart';
+import 'package:latihan_mobile/rumahsakit/screen_page/splash_screen.dart';
+import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_bottom_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Anjay',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -32,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PageBottomNavigationBar(),
+      home: UserListPage(),
       debugShowCheckedModeBanner: false,
     );
   }

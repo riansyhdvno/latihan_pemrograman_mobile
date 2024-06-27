@@ -1,4 +1,4 @@
-name: project_slicingui
+name: latihan_mobile
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,6 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  audioplayers: ^0.20.1
+  video_player: ^2.8.6
   fluttertoast: ^8.2.4
   flutter_styled_toast: ^2.2.1
   intl: ^0.18.1
@@ -90,6 +92,12 @@ flutter:
       - gambar/topcourse1.png
       - gambar/topcourse2.png
       - gambar/topcourse3.png
+      - gambar/img.png
+      - gambar/rs1.png
+      - gambar/rs2.png
+      - gambar/rs3.png
+      - gambar/rs4.png
+      - gambar/bola.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
