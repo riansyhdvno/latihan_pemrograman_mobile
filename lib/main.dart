@@ -6,8 +6,8 @@ import 'package:latihan_mobile/list_bola/screen_sepakbola.dart';
 import 'package:latihan_mobile/list_user/list_user.dart';
 import 'package:latihan_mobile/media_player/menut_utama.dart';
 import 'package:latihan_mobile/pegawai/screen_pegawai.dart';
-import 'package:latihan_mobile/rumahsakit/screen_page/splash_screen.dart';
-import 'package:latihan_mobile/slicingui_dan_maps_kamera/screen_page/page_bottom_navigation.dart';
+import 'package:latihan_mobile/crud_wisata/screen_page/splash_screen.dart';
+import 'package:latihan_mobile/lat_edukasi_6april/screen_page/page_bottom_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: UserListPage(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
